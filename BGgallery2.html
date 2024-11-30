@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Collections</h1>
+						<p>of all my artworks</p>
+					</header>
+
+									<!-- Nav -->
+									<nav id="nav">
+										<ul>
+											<li><a href="index.html" class="button">Home</a></li>
+											<li><a href="BGgallery2.html" class="button">Gallery</a></li>
+											<li><a href="#footer" class="button">Contact</a></li>
+
+	
+										</ul>
+									</nav>
+				
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+                         <header id="header" class="minor">
+                            <h1>Blaze Pizza Projects</h1>
+							<section id="content" class="main">
+
+                                <!DOCTYPE html>
+                                <html>
+                                <head>
+                                <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <style>
+                                * {
+                                  box-sizing: border-box;
+                                }
+                                
+                                body {
+                                  margin: 0;
+                                }
+                                
+                                /* The grid: Four equal columns that floats next to each other */
+                                .column {
+                                  float: left;
+                                  width: 25%;
+                                  padding: 10px;
+                                }
+                                
+                                /* Style the images inside the grid */
+                                .column img {
+                                  opacity: 0.8; 
+                                  cursor: pointer; 
+                                }
+                                
+                                .column img:hover {
+                                  opacity: 1;
+                                }
+                                
+                                /* Clear floats after the columns */
+                                .row:after {
+                                  content: "";
+                                  display: table;
+                                  clear: both;
+                                }
+                                
+                                /* The expanding image container */
+                                .container {
+                                  position: relative;
+                                  display: none;
+                                }
+                                
+                                /* Expanding image text */
+                                #imgtext {
+                                  position: absolute;
+                                  bottom: 15px;
+                                  left: 15px;
+                                  color: white;
+                                  font-size: 30px;
+                                }
+                                
+                                /* Closable button inside the expanded image */
+                                .closebtn {
+                                  position: absolute;
+                                  top: 10px;
+                                  right: 25px;
+                                  color: white;
+                                  font-size: 55px;
+                                  cursor: pointer;
+                                }
+                                </style>
+                                </head>
+                                <body>
+                                
+                                <div style="text-align:center">
+                                  <p>2018 - Present Day</p>
+                                </div>
+                                
+                                <!-- The four columns -->
+                                <div class="row">
+                                  <div class="column">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20230614_174235.jpg" style="width:100%" onclick="myFunction(this);">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20240430_135811.jpg" style="width:100%" onclick="myFunction(this);">
+                                  </div>
+                                  <div class="column">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/Screenshot_20230818_151452_Photos.jpg" style="width:100%" onclick="myFunction(this);">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20220813_153403.jpg" style="width:100%" onclick="myFunction(this);">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20230706_165430.jpg" style="width:100%" onclick="myFunction(this);">
+                                  </div>
+                                  <div class="column">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20230820_151247.jpg" style="width:100%" onclick="myFunction(this);">+
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20220902_191832.jpg" style="width:100%" onclick="myFunction(this);">
+                                  </div>
+                                  <div class="column">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/20231215_124026.jpg" style="width:100%" onclick="myFunction(this);">
+                                    <img src="images/Blaze Gallery/BlazeArt/irl_counterparts/IMG_20230704_124645_01.jpg" style="width:100%" onclick="myFunction(this);">
+                                  </div>
+                                </div>
+
+                                
+
+                                <div class="container">
+                                  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                                  <img id="expandedImg" style="width:100%">
+                                  <div id="imgtext"></div>
+                                </div>
+                                
+                                <script>
+                                function myFunction(imgs) {
+                                  var expandImg = document.getElementById("expandedImg");
+                                  var imgText = document.getElementById("imgtext");
+                                  expandImg.src = imgs.src;
+                                  imgText.innerHTML = imgs.alt;
+                                  expandImg.parentElement.style.display = "block";
+                                }
+                                </script>
+                                
+                                </body>
+                                </html>
+                                
+    <!-- Optional footer -->
+    <footer class="major">
+        <ul class="actions special">                      
+        </ul>
+    </footer>
+</section>
+								<h2>My Blaze Pizza Experience</h2>
+								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
+								<p>Blaze Pizza gave me opportunities I could never have imagined possible for someone in my position. More than anything else, they have taught me how to blaze my own trail. </p>
+								</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section>
+						<h2>Additional Services</h2>
+						<p>In addition to art, graphic design, logo creation, and character design, I also offer website design and management, social media managment, animation, video editing, and branding strategies. Whether you're looking to create eye-catching visuals or develop a complete digital presence, I’m here to help make your vision a reality</p>
+						</ul>
+					</section>
+					<section>
+						<h2>Contact me:</h2>
+						<dl class="alt">
+							<h4>(813) 714-7797</dh4>
+							<h4><a href="#">ridleysamm@gmail.com</a></h4>
+						</dl>
+						</ul>
+					</section>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
