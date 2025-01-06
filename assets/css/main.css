@@ -3200,7 +3200,6 @@ input, select, textarea {
 			-ms-transform: scale(0.8) rotate(-30deg);
 			transform: scale(0.8) rotate(-30deg);
 		}
-
 /* Nav */
 
 	#nav {
@@ -3210,8 +3209,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
-		position: absolute;
-		width: 64em;
+		position: fixed;
+		width: 100%;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
@@ -3219,6 +3218,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		z-index: 1000; /* Ensures it stays above other elements */
 	}
 
 		#nav input, #nav select, #nav textarea {
